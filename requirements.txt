@@ -1,10 +1,5 @@
---extra-index-url https://download.pytorch.org/whl/cpu
-
 fastapi
-uvicorn
-torch==2.0.1+cpu 
-torchvision==0.15.2+cpu
+uvicorn[standard]
 pillow
-numpy<2.0.0
-python-multipart
-opencv-python-headless
+torch
+torchvision
